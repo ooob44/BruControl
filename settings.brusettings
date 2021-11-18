@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <Appearance>
+    <Element>
+      <BackgroundImageIndex>0</BackgroundImageIndex>
+      <BackgroundImages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <BorderVisibility>Visible</BorderVisibility>
+      <CircularGaugeOptions>
+        <Layout>Full</Layout>
+        <MajorTickCount>11</MajorTickCount>
+        <MaxValue>100</MaxValue>
+        <MinValue>0</MinValue>
+        <MinorTickCount>4</MinorTickCount>
+        <Style>Basic</Style>
+      </CircularGaugeOptions>
+      <DigitalGaugeOptions>
+        <DigitCount>3</DigitCount>
+        <Mode>SevenSegment</Mode>
+        <Style>Basic</Style>
+      </DigitalGaugeOptions>
+      <DisplayKind>Text</DisplayKind>
+      <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+      <IndicatorOptions>
+        <OffColor>Off</OffColor>
+        <OnColor>Green</OnColor>
+      </IndicatorOptions>
+      <LinearGaugeOptions>
+        <MajorTickCount>11</MajorTickCount>
+        <MaxValue>100</MaxValue>
+        <MinValue>0</MinValue>
+        <MinorTickCount>4</MinorTickCount>
+        <Orientation>Vertical</Orientation>
+        <Style>Basic</Style>
+      </LinearGaugeOptions>
+      <NameAlignment>TopLeft</NameAlignment>
+      <NameBackColor>16777215</NameBackColor>
+      <NameFont i:nil="true" />
+      <NameForeColor i:nil="true" />
+      <NameVisibility>Visible</NameVisibility>
+      <ShowSecondaryValue>true</ShowSecondaryValue>
+      <TextDisplayOptions>
+        <FalseText i:nil="true" />
+        <Precision>0</Precision>
+        <TrueText i:nil="true" />
+      </TextDisplayOptions>
+      <ValueAlignment>MiddleCenter</ValueAlignment>
+      <ValueBackColor>16777215</ValueBackColor>
+      <ValueEnlargement>6</ValueEnlargement>
+      <ValueFont i:nil="true" />
+      <ValueForeColor i:nil="true" />
+      <Visibility>Visible</Visibility>
+    </Element>
+    <GridSize>10</GridSize>
+    <MoveThreshold>5</MoveThreshold>
+    <Palette></Palette>
+    <ScriptWindowHeight>339</ScriptWindowHeight>
+    <Theme>Office 2016 Black</Theme>
+  </Appearance>
+  <AutoLockIdleTime>0</AutoLockIdleTime>
+  <ConfigurationName>brewing</ConfigurationName>
+  <DBConnection i:nil="true" />
+  <DataExplorer>
+    <SelectedChannel i:nil="true" />
+    <SelectedChannel2 i:nil="true" />
+    <ShareYAxis>true</ShareYAxis>
+    <TimeSpan>432000000000</TimeSpan>
+  </DataExplorer>
+  <Email>
+    <Enabled>false</Enabled>
+    <Password i:nil="true" />
+    <Provider i:nil="true" />
+    <Recipients xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <SmtpHost i:nil="true" />
+    <SmtpPort>0</SmtpPort>
+    <UseSSL>false</UseSSL>
+    <Username i:nil="true" />
+  </Email>
+  <LicenseEmail i:nil="true" />
+  <LicensePassword i:nil="true" />
+  <Locked>false</Locked>
+  <MinimizeToTray>false</MinimizeToTray>
+  <Pin i:nil="true" />
+  <Service>
+    <Enabled>false</Enabled>
+    <Port>8000</Port>
+  </Service>
+</Settings>

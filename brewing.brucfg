@@ -1,0 +1,2307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <ActiveWorkspaceIndex>0</ActiveWorkspaceIndex>
+  <Devices>
+    <Device>
+      <Address>192.168.1.22</Address>
+      <BaudRate>115200</BaudRate>
+      <Enabled>true</Enabled>
+      <ID>960e7277-28c0-4635-bd59-d8c8b53c46f8</ID>
+      <Interface>Tcp</Interface>
+      <LoggingEnabled>false</LoggingEnabled>
+      <Name>Brewing</Name>
+      <Port>5000</Port>
+      <Ports>
+        <DevicePort xmlns="" i:type="DigitalInPort">
+          <Enabled>false</Enabled>
+          <ID>c207d6fb-687a-49d6-9fac-2ba2251a6720</ID>
+          <Number>2</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>true</Enabled>
+          <ID>a74a3126-d940-40f5-a1e1-0b098edf5d69</ID>
+          <Number>2</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>true</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>true</Enabled>
+          <ID>99b1b9a0-f56a-499d-a82b-67d8246cf03e</ID>
+          <Number>3</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>false</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>true</Enabled>
+          <ID>b66279c7-c1dc-4b27-8a8e-2eeb09219327</ID>
+          <Number>4</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>true</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="PIDPort">
+          <Enabled>true</Enabled>
+          <ID>400d0317-ef85-4d35-940e-1f9d378e4910</ID>
+          <Number>6</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <CalValue>
+            <Calibrations />
+            <Precision>0</Precision>
+            <Prefix></Prefix>
+            <RequestedValue>0</RequestedValue>
+            <Suffix></Suffix>
+          </CalValue>
+          <CalcTime>1</CalcTime>
+          <InputPortID>b86dc702-1f72-4655-bf80-8073ac753f3b</InputPortID>
+          <Kd>0</Kd>
+          <Ki>0</Ki>
+          <Kp>0</Kp>
+          <MaxIntegral>50</MaxIntegral>
+          <MaxOutput>100</MaxOutput>
+          <OutTime>1</OutTime>
+          <Pwm>false</Pwm>
+          <Reversed>false</Reversed>
+          <Target>0</Target>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="AnalogInPort">
+          <Enabled>true</Enabled>
+          <ID>b86dc702-1f72-4655-bf80-8073ac753f3b</ID>
+          <Number>100</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <AvgWeight>25</AvgWeight>
+          <CalValue>
+            <Calibrations />
+            <Precision>1</Precision>
+            <Prefix></Prefix>
+            <RequestedValue>0</RequestedValue>
+            <Suffix>°F</Suffix>
+          </CalValue>
+          <PollRate>500</PollRate>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="AnalogInPort">
+          <Enabled>true</Enabled>
+          <ID>b129140c-e0dc-436a-b705-427d25a431a2</ID>
+          <Number>102</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <AvgWeight>25</AvgWeight>
+          <CalValue>
+            <Calibrations />
+            <Precision>1</Precision>
+            <Prefix></Prefix>
+            <RequestedValue>0</RequestedValue>
+            <Suffix>°F</Suffix>
+          </CalValue>
+          <PollRate>500</PollRate>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="AnalogInPort">
+          <Enabled>true</Enabled>
+          <ID>e9008d10-af85-4c2e-8e48-961ae4f4d327</ID>
+          <Number>104</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <AvgWeight>25</AvgWeight>
+          <CalValue>
+            <Calibrations />
+            <Precision>0</Precision>
+            <Prefix></Prefix>
+            <RequestedValue>0</RequestedValue>
+            <Suffix>°F</Suffix>
+          </CalValue>
+          <PollRate>500</PollRate>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="AnalogInPort">
+          <Enabled>true</Enabled>
+          <ID>af32bf23-b6dd-46e5-a13d-e43643141592</ID>
+          <Number>105</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <AvgWeight>25</AvgWeight>
+          <CalValue>
+            <Calibrations />
+            <Precision>0</Precision>
+            <Prefix></Prefix>
+            <RequestedValue>0</RequestedValue>
+            <Suffix>°F</Suffix>
+          </CalValue>
+          <PollRate>500</PollRate>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>true</Enabled>
+          <ID>5f1d416c-f507-442e-8abf-bc14e6027043</ID>
+          <Number>8</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>false</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>true</Enabled>
+          <ID>c4615df2-6262-48a0-974d-22964f2b9481</ID>
+          <Number>9</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>false</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DutyCyclePort">
+          <Enabled>false</Enabled>
+          <ID>b26d7789-48fa-4d87-b23d-ae1823262024</ID>
+          <Number>11</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <DutyCycle>50</DutyCycle>
+          <Interval>1000</Interval>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>false</Enabled>
+          <ID>47912477-7436-4e81-932c-889b90281d2b</ID>
+          <Number>13</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>false</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>false</Enabled>
+          <ID>eb3c0e8b-5641-4179-a6ea-8ad352fa0ed8</ID>
+          <Number>14</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>false</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>false</Enabled>
+          <ID>55da38ab-6573-4428-b79f-bbb1b831b786</ID>
+          <Number>15</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>false</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>false</Enabled>
+          <ID>cdaa2460-e7b9-4122-a9a2-a1fe91788adf</ID>
+          <Number>16</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>false</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>false</Enabled>
+          <ID>dff86a16-633f-4c45-b5a5-189b2bc3f508</ID>
+          <Number>17</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>false</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>false</Enabled>
+          <ID>e0f42323-a0c1-4f5a-b1eb-de8c8c48b031</ID>
+          <Number>18</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>false</State>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="PWMOutPort">
+          <Enabled>false</Enabled>
+          <ID>65109932-e01d-4133-a364-3c614d0901b9</ID>
+          <Number>13</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <CalValue>
+            <Calibrations />
+            <Precision>0</Precision>
+            <Prefix></Prefix>
+            <RequestedValue>100</RequestedValue>
+            <Suffix></Suffix>
+          </CalValue>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="PWMOutPort">
+          <Enabled>false</Enabled>
+          <ID>12d45ee8-a360-4f7a-8db3-e16a8d190574</ID>
+          <Number>2</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <CalValue>
+            <Calibrations />
+            <Precision>0</Precision>
+            <Prefix></Prefix>
+            <RequestedValue>0</RequestedValue>
+            <Suffix></Suffix>
+          </CalValue>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="AnalogInPort">
+          <Enabled>false</Enabled>
+          <ID>bbe7a271-5f1c-4666-bcf0-213cf3aadc9d</ID>
+          <Number>111</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <AvgWeight>25</AvgWeight>
+          <CalValue>
+            <Calibrations />
+            <Precision>0</Precision>
+            <Prefix></Prefix>
+            <RequestedValue>0</RequestedValue>
+            <Suffix></Suffix>
+          </CalValue>
+          <PollRate>500</PollRate>
+        </DevicePort>
+        <DevicePort xmlns="" i:type="DigitalOutPort">
+          <Enabled>false</Enabled>
+          <ID>8ecddbc7-7823-4f63-b727-36135341c493</ID>
+          <Number>6</Number>
+          <PrimaryDisplayChannel>0</PrimaryDisplayChannel>
+          <RefreshMultiple>1</RefreshMultiple>
+          <ActiveLow>false</ActiveLow>
+          <DualThrowDelay>0</DualThrowDelay>
+          <DualThrowPortNum>-1</DualThrowPortNum>
+          <OneShot>0</OneShot>
+          <OneShotDirection>false</OneShotDirection>
+          <State>true</State>
+        </DevicePort>
+      </Ports>
+      <ReceiveTimeout>3000</ReceiveTimeout>
+      <RefreshInterval>1000</RefreshInterval>
+      <SerialPort>1</SerialPort>
+      <TypeName>Grand Central M4</TypeName>
+      <WiringMap>Wi-Fi</WiringMap>
+    </Device>
+  </Devices>
+  <Processes>
+    <Process>
+      <AutoStart>false</AutoStart>
+      <ID>e729eaf0-1b02-4eb8-95c7-5db718d1d379</ID>
+      <Name>Setup</Name>
+      <Script>[start]
+call "reset-elements"
+call "reset-pumps"
+call "reset-valves"
+call "reset-pH-cal"
+call "reset-timers"
+call "reset alarm"
+stop
+
+[reset-elements]
+"RIMS Control" Enabled = false
+"Boil Control" Enabled = false
+"RIMS Element" State = off
+"Boil Element" State = off
+return
+
+[reset-pumps]
+"Mash Pump" State = off
+"Boil Pump" State = off
+return
+
+[reset-valves]
+"Mash Pump Valve" State = off
+"Boil Pump Valve" State = off
+"Mash Inlet Valve" State = off
+"Boil Inlet Valve" State = off
+"Mash CIP Valve" State = off
+"Boil CIP Valve" State = off
+"Mash Flow Valve" Value = 0
+"Boil Flow Valve" Value = 0
+sleep 6000
+return
+
+[reset-pH-cal]
+"pH Cal 4" State = off
+"pH Cal 7" State = off
+"pH Cal 10" State = off
+return 
+
+[reset-timers]
+stop "Mash Timer"
+"Mash Timer" 
+reset "Mash Timer"
+stop "Boil Timer"
+reset "Boil Timer"
+return
+
+[reset-alarm]
+"Alarm" Active = false
+return
+</Script>
+      <UserControl>false</UserControl>
+    </Process>
+    <Process>
+      <AutoStart>false</AutoStart>
+      <ID>41a77ea6-69cc-4191-8437-0b464aa543dd</ID>
+      <Name>Strike Water</Name>
+      <Script>[Start]
+call "Set Valves to Fill Strike Water"
+call "Fill Strike Water"
+call "Heat Strike Water"
+call "Activate Alarm"
+stop "Strike Water"
+
+[Set Valves to Fill Strike Water]
+"Mash Pump Valve" State = on
+"Boil Pump Valve" State = off
+"Mash Inlet Valve" State = off
+"Mash Flow Valve" Value = 100
+sleep 6000 // Allow valves to finish moving
+return
+
+[Fill Strike Water]
+"Mash Pump" State = on
+wait "Mash Volume" Value &gt;= "Strike Water Volume" Value
+"Mash Pump" State = off
+"Mash Pump Valve" State = off
+return
+
+[Heat Strike Water]
+"Mash Pump" State = on
+"RIMS Control" Enabled = true
+wait "Mash Temp" Value &gt;= "Strike Water Temp" Value
+return
+
+[Activate Alarm]
+"Alarm" Active = true
+return
+</Script>
+      <UserControl>false</UserControl>
+    </Process>
+    <Process>
+      <AutoStart>false</AutoStart>
+      <ID>6d3c9cca-f02f-467c-9711-a248b38e1e29</ID>
+      <Name>Mash</Name>
+      <Script>// Start timer
+// Wait Timer
+// Stop MLT Pump
+// Move Valves
+// Set Proportional Valves &amp;amp; PID
+// Start MLT &amp;amp; Boil Pumps
+// Wait Boil Volume = goal
+// Stop MLT &amp;amp; Boil Pumps
+// Move Valves
+// Set Boil Element On
+// Start Boil Pump
+// Wait Boil Temp = goal
+// Stop Boil Pump
+// Set Alarm</Script>
+      <UserControl>false</UserControl>
+    </Process>
+    <Process>
+      <AutoStart>false</AutoStart>
+      <ID>ff053a90-8a18-4fc6-abde-562e42209f2a</ID>
+      <Name>Boil</Name>
+      <Script>// Set Boil Element PWM
+// Start Boil Timer
+// Start Hop Alarms Script
+// Wait Boil Timer = 10 minutes
+// Start Boil Pump
+// Wait Boil Timer = 0
+// Set Alarm
+// Stop Boil Timer
+// Disable Boil Element
+// Close Proportional Valve</Script>
+      <UserControl>false</UserControl>
+    </Process>
+    <Process>
+      <AutoStart>false</AutoStart>
+      <ID>1e49d0bf-4b0b-401f-9e22-7634e9dfe09c</ID>
+      <Name>Fermenter</Name>
+      <Script>// Set Proportional Valve PID
+"pH Fault" Value = false</Script>
+      <UserControl>false</UserControl>
+    </Process>
+    <Process>
+      <AutoStart>false</AutoStart>
+      <ID>3ecabf32-9999-440b-bd16-ab2cb0d2d29a</ID>
+      <Name>Hop Alarms</Name>
+      <Script>// Wait Boil Timer = Hops 1 Time
+// Set Alarm
+// Wait Boil Timer = Hops 2 Time
+// Set Alarm
+// Wait Boil Timer = Hops 3 Time
+// Set Alarm
+// Wait Boil Timer = Hops 4 Time
+// Set Alarm
+// Wait Boil Timer = Hops 5 Time
+// Set Alarm
+// Wait Boil Timer = Hops 6 Time
+// Set Alarm</Script>
+      <UserControl>false</UserControl>
+    </Process>
+    <Process>
+      <AutoStart>false</AutoStart>
+      <ID>74414fb9-f081-499c-955f-888d29e94068</ID>
+      <Name>Status</Name>
+      <Script>[status]
+// Check Alarm state
+// Clear Alarm
+if "pH Fault" Value == true
+	"Alarm" Active = true
+endif
+
+// Link element enable signal to control state
+if "RIMS Control" Enabled = true
+	"RIMS Element" State = on
+else
+	"RIMS Element" State = off
+endif
+if "Boil Control" Enabled = true
+	"Boil Element" State = on
+else
+	"Boil Element" State = off
+endif
+
+
+sleep 500
+goto status
+</Script>
+      <UserControl>false</UserControl>
+    </Process>
+  </Processes>
+  <ShowProcesses>false</ShowProcesses>
+  <Workspaces>
+    <Workspace>
+      <BackgroundImageHeight>600</BackgroundImageHeight>
+      <BackgroundImagePath i:nil="true" />
+      <BackgroundImageWidth>800</BackgroundImageWidth>
+      <Elements>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <DisplayName></DisplayName>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>5d3e7158-459e-4697-bd32-66e321c4e886</ID>
+          <Name>Mash Pump</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>510</X>
+          <Y>700</Y>
+          <PortID>8ecddbc7-7823-4f63-b727-36135341c493</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <DisplayName></DisplayName>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>792849d4-977e-4d3d-b600-823505e0771f</ID>
+          <Name>Mash Volume</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>120</X>
+          <Y>470</Y>
+          <PortID>bbe7a271-5f1c-4666-bcf0-213cf3aadc9d</PortID>
+        </Element>
+        <Element xmlns="" i:type="TimerElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <DisplayName></DisplayName>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>b0ab6275-5168-42e5-bfcd-fb10d9c4276a</ID>
+          <Name>Mash Timer</Name>
+          <UserControl>true</UserControl>
+          <Width>270</Width>
+          <X>1490</X>
+          <Y>250</Y>
+          <Alarms>
+            <TimerAlarm>
+              <AlarmID>00000000-0000-0000-0000-000000000000</AlarmID>
+              <Enabled>false</Enabled>
+              <Threshold>PT0S</Threshold>
+            </TimerAlarm>
+            <TimerAlarm>
+              <AlarmID>00000000-0000-0000-0000-000000000000</AlarmID>
+              <Enabled>false</Enabled>
+              <Threshold>PT0S</Threshold>
+            </TimerAlarm>
+          </Alarms>
+          <Format></Format>
+          <InitRunning>false</InitRunning>
+          <ResetValue>PT0S</ResetValue>
+          <Time>2021-11-18T00:22:05.9541496Z</Time>
+          <Type>CountUp</Type>
+          <Value>P2DT18H35M0.7496531S</Value>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>efcd4f66-35d2-4456-972d-af67f33e0184</ID>
+          <Name>Boil Flow Valve</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>870</X>
+          <Y>670</Y>
+          <PortID>12d45ee8-a360-4f7a-8db3-e16a8d190574</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>3140b2fa-562b-4f4d-9e97-2714f139426c</ID>
+          <Name>Mash Flow Valve</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>690</X>
+          <Y>670</Y>
+          <PortID>65109932-e01d-4133-a364-3c614d0901b9</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>f53491c4-0797-43c7-a8b2-a7ea97ee9c93</ID>
+          <Name>Boil CIP Valve</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>900</X>
+          <Y>40</Y>
+          <PortID>e0f42323-a0c1-4f5a-b1eb-de8c8c48b031</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>b9e35840-5026-4218-9c6a-3d28ef5e55c8</ID>
+          <Name>Mash CIP Valve</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>710</X>
+          <Y>40</Y>
+          <PortID>dff86a16-633f-4c45-b5a5-189b2bc3f508</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>e03feab2-12c5-4aa3-9101-b0b292f4fc8f</ID>
+          <Name>Boil Inlet Valve</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>1080</X>
+          <Y>40</Y>
+          <PortID>cdaa2460-e7b9-4122-a9a2-a1fe91788adf</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>579c1ccc-e837-44f5-b72f-4efb7014483e</ID>
+          <Name>Mash Inlet Valve</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>530</X>
+          <Y>40</Y>
+          <PortID>55da38ab-6573-4428-b79f-bbb1b831b786</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>a6efb8f0-d655-4c8f-b140-9adc5b0fecae</ID>
+          <Name>Boil Pump Valve</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>920</X>
+          <Y>510</Y>
+          <PortID>eb3c0e8b-5641-4179-a6ea-8ad352fa0ed8</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>48ba9270-f808-4c24-84c6-b599d2d0a37f</ID>
+          <Name>Mash Pump Valve</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>600</X>
+          <Y>510</Y>
+          <PortID>47912477-7436-4e81-932c-889b90281d2b</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>6e72ac75-7517-4b50-bb1e-a9074f99c63f</ID>
+          <Name>Boil Control</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>1280</X>
+          <Y>170</Y>
+          <PortID>b26d7789-48fa-4d87-b23d-ae1823262024</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>StateIndicator</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Yellow</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>ba691eaf-d56f-4aaa-aa14-5881ecd026e5</ID>
+          <Name>Boil Element</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>1280</X>
+          <Y>330</Y>
+          <PortID>c4615df2-6262-48a0-974d-22964f2b9481</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>StateIndicator</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Yellow</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>016615f4-3bfa-43b8-bd6b-54f6b5eded05</ID>
+          <Name>RIMS Element</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>330</X>
+          <Y>340</Y>
+          <PortID>5f1d416c-f507-442e-8abf-bc14e6027043</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>1862d11d-5314-4535-98d6-135b45cdaab0</ID>
+          <Name>Chiller Temp</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>1070</X>
+          <Y>230</Y>
+          <PortID>af32bf23-b6dd-46e5-a13d-e43643141592</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>3466b35d-6ca6-4aab-9bcd-8f01693dc057</ID>
+          <Name>Boil Temp</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>890</X>
+          <Y>230</Y>
+          <PortID>e9008d10-af85-4c2e-8e48-961ae4f4d327</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>3c624586-0aa8-46b9-a2fa-9ce707a425d9</ID>
+          <Name>RIMS Temp</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>710</X>
+          <Y>230</Y>
+          <PortID>b129140c-e0dc-436a-b705-427d25a431a2</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>4</DigitCount>
+              <Mode>Default</Mode>
+              <Style>GothicMat</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>371724a9-1ecd-40f5-87c2-2eda8b182d3f</ID>
+          <Name>Mash Temp</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>530</X>
+          <Y>230</Y>
+          <PortID>b86dc702-1f72-4655-bf80-8073ac753f3b</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>1da8087c-be8c-4925-a112-45c3d8eda56e</ID>
+          <Name>RIMS Control</Name>
+          <UserControl>true</UserControl>
+          <Width>180</Width>
+          <X>330</X>
+          <Y>180</Y>
+          <PortID>400d0317-ef85-4d35-940e-1f9d378e4910</PortID>
+        </Element>
+        <Element xmlns="" i:type="AlarmElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Hidden</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>StateIndicator</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Red</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>TopCenter</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>70</Height>
+          <ID>b6a5c293-627b-46f5-afa2-d0e8d1553710</ID>
+          <Name>Alarm</Name>
+          <UserControl>true</UserControl>
+          <Width>130</Width>
+          <X>0</X>
+          <Y>30</Y>
+          <DigitalOutputID>00000000-0000-0000-0000-000000000000</DigitalOutputID>
+          <EmailNotification>false</EmailNotification>
+          <FileIndex>1</FileIndex>
+          <Loop>false</Loop>
+          <OffImagePath i:nil="true" />
+          <OnImagePath i:nil="true" />
+          <Sound>Default</Sound>
+          <SoundFile></SoundFile>
+          <SoundFile2 i:nil="true" />
+          <SoundFile3 i:nil="true" />
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>StateIndicator</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Red</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Hidden</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>3214649f-c745-4565-aa2e-6b5acf29fcb8</ID>
+          <Name>pH Fault</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>100</X>
+          <Y>290</Y>
+          <PortID>c207d6fb-687a-49d6-9fac-2ba2251a6720</PortID>
+        </Element>
+      </Elements>
+      <Hidden>false</Hidden>
+      <Name>Brewing</Name>
+    </Workspace>
+    <Workspace>
+      <BackgroundImageHeight>600</BackgroundImageHeight>
+      <BackgroundImagePath i:nil="true" />
+      <BackgroundImageWidth>800</BackgroundImageWidth>
+      <Elements>
+        <Element xmlns="" i:type="GlobalVariableElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <DisplayName></DisplayName>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>4ba3a5e3-5cf3-42b2-be5a-a17b57357e19</ID>
+          <Name>Strike Water Temp</Name>
+          <UserControl>true</UserControl>
+          <Width>180</Width>
+          <X>1080</X>
+          <Y>200</Y>
+          <Format></Format>
+          <Precision>3</Precision>
+          <Value>0.000</Value>
+          <VariableName i:nil="true" />
+          <VariableType>Value</VariableType>
+        </Element>
+        <Element xmlns="" i:type="GlobalVariableElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <DisplayName></DisplayName>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>4619cdf0-8d12-4c67-afbd-05a4ebe6a7a3</ID>
+          <Name>Strike Water Volume</Name>
+          <UserControl>true</UserControl>
+          <Width>180</Width>
+          <X>880</X>
+          <Y>200</Y>
+          <Format></Format>
+          <Precision>3</Precision>
+          <Value>0.000</Value>
+          <VariableName i:nil="true" />
+          <VariableType>Value</VariableType>
+        </Element>
+        <Element xmlns="" i:type="ProfileElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <BorderVisibility>Default</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>0</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>Text</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Green</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>Default</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText i:nil="true" />
+              <Precision>0</Precision>
+              <TrueText i:nil="true" />
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>160</Height>
+          <ID>de3ca105-8d44-4e3d-bb11-87ae918e3081</ID>
+          <Name>Profile 1</Name>
+          <UserControl>false</UserControl>
+          <Width>180</Width>
+          <X>890</X>
+          <Y>0</Y>
+          <DestinationID>00000000-0000-0000-0000-000000000000</DestinationID>
+          <DestinationProperty i:nil="true" />
+          <Directional>false</Directional>
+          <SourceID>00000000-0000-0000-0000-000000000000</SourceID>
+          <SourceProperty i:nil="true" />
+          <Table />
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Hidden</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>StateIndicator</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Yellow</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>MiddleLeft</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>60</Height>
+          <ID>372f70bb-f717-4b35-885c-5fc55153372b</ID>
+          <Name>pH Cal 10</Name>
+          <UserControl>true</UserControl>
+          <Width>210</Width>
+          <X>100</X>
+          <Y>240</Y>
+          <PortID>b66279c7-c1dc-4b27-8a8e-2eeb09219327</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Hidden</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>StateIndicator</DisplayKind>
+            <EnableButtonVisibility>UserControl</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Yellow</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>MiddleLeft</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <Enabled>false</Enabled>
+          <Height>60</Height>
+          <ID>0f6c236d-9ad1-4752-9412-877a038db9e2</ID>
+          <Name>pH Cal 7</Name>
+          <UserControl>true</UserControl>
+          <Width>210</Width>
+          <X>100</X>
+          <Y>190</Y>
+          <PortID>99b1b9a0-f56a-499d-a82b-67d8246cf03e</PortID>
+        </Element>
+        <Element xmlns="" i:type="DeviceElement">
+          <Appearance>
+            <BackgroundImageIndex>0</BackgroundImageIndex>
+            <BackgroundImages xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+              <d7p1:string></d7p1:string>
+            </BackgroundImages>
+            <BorderVisibility>Hidden</BorderVisibility>
+            <CircularGaugeOptions>
+              <Layout>Full</Layout>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Style>Default</Style>
+            </CircularGaugeOptions>
+            <DigitalGaugeOptions>
+              <DigitCount>1</DigitCount>
+              <Mode>Default</Mode>
+              <Style>Default</Style>
+            </DigitalGaugeOptions>
+            <DisplayKind>StateIndicator</DisplayKind>
+            <EnableButtonVisibility>Never</EnableButtonVisibility>
+            <IndicatorOptions>
+              <OffColor>Off</OffColor>
+              <OnColor>Yellow</OnColor>
+            </IndicatorOptions>
+            <LinearGaugeOptions>
+              <MajorTickCount>11</MajorTickCount>
+              <MaxValue>100</MaxValue>
+              <MinValue>0</MinValue>
+              <MinorTickCount>4</MinorTickCount>
+              <Orientation>Vertical</Orientation>
+              <Style>Default</Style>
+            </LinearGaugeOptions>
+            <NameAlignment>MiddleLeft</NameAlignment>
+            <NameBackColor i:nil="true" />
+            <NameFont i:nil="true" />
+            <NameForeColor i:nil="true" />
+            <NameVisibility>Default</NameVisibility>
+            <ShowSecondaryValue>true</ShowSecondaryValue>
+            <TextDisplayOptions>
+              <FalseText></FalseText>
+              <Precision>0</Precision>
+              <TrueText></TrueText>
+            </TextDisplayOptions>
+            <ValueAlignment>Default</ValueAlignment>
+            <ValueBackColor i:nil="true" />
+            <ValueEnlargement i:nil="true" />
+            <ValueFont i:nil="true" />
+            <ValueForeColor i:nil="true" />
+            <Visibility>Default</Visibility>
+          </Appearance>
+          <DisplayName></DisplayName>
+          <Enabled>false</Enabled>
+          <Height>60</Height>
+          <ID>f1b693c4-c264-4418-bb78-aa1aaecad054</ID>
+          <Name>pH Cal 4</Name>
+          <UserControl>true</UserControl>
+          <Width>210</Width>
+          <X>100</X>
+          <Y>140</Y>
+          <PortID>a74a3126-d940-40f5-a1e1-0b098edf5d69</PortID>
+        </Element>
+      </Elements>
+      <Hidden>false</Hidden>
+      <Name>Setup</Name>
+    </Workspace>
+  </Workspaces>
+</Configuration>
