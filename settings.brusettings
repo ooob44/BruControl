@@ -3,8 +3,10 @@
   <Appearance>
     <Element>
       <BackgroundImageIndex>0</BackgroundImageIndex>
-      <BackgroundImages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <BorderVisibility>Visible</BorderVisibility>
+      <BackgroundImages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string></d4p1:string>
+      </BackgroundImages>
+      <BorderVisibility>HiddenLocked</BorderVisibility>
       <CircularGaugeOptions>
         <Layout>Full</Layout>
         <MajorTickCount>11</MajorTickCount>
@@ -53,8 +55,8 @@
     <GridSize>10</GridSize>
     <MoveThreshold>5</MoveThreshold>
     <Palette></Palette>
-    <ScriptWindowHeight>339</ScriptWindowHeight>
-    <Theme>Office 2016 Black</Theme>
+    <ScriptWindowHeight>512</ScriptWindowHeight>
+    <Theme>Visual Studio 2013 Dark</Theme>
   </Appearance>
   <AutoLockIdleTime>0</AutoLockIdleTime>
   <ConfigurationName>brewing</ConfigurationName>
@@ -77,7 +79,7 @@
   </Email>
   <LicenseEmail i:nil="true" />
   <LicensePassword i:nil="true" />
-  <Locked>false</Locked>
+  <Locked>true</Locked>
   <MinimizeToTray>false</MinimizeToTray>
   <Pin i:nil="true" />
   <Service>
